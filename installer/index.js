@@ -20,7 +20,7 @@ const RESET = '\x1b[0m';
 async function runSetup() {
     console.clear();
     console.log("-----------------------------------------");
-    console.log(`   OMNISENDER v1.0.5 - INSTALLER`);
+    console.log(`   CorePing v1.0.4 - INSTALLER`);
     console.log("-----------------------------------------");
     
     const osType = process.platform === 'win32' ? 'windows' : 'linux';
@@ -113,5 +113,6 @@ async function runSetup() {
     
     process.exit(0);
 }
+
 
 module.exports = { runSetup };
