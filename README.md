@@ -1,7 +1,7 @@
-# OmniSender: Unified and Open-Source Messaging
-OmniSender is a self-hosted application developed in Node.js, designed to broadcast messages simultaneously to Discord and WhatsApp.
+# CorePing: Unified and Open-Source Messaging
+CorePing is a self-hosted application developed in Node.js, designed to broadcast messages simultaneously to Discord and WhatsApp.
 
-The project's goal is to facilitate and democratize multichannel communication. Without the need to subscribe to third-party services for simple functions, OmniSender allows you to centralize your broadcasts directly and for free. The tool was designed to be accessible, running perfectly in both Windows and Linux environments.
+The project's goal is to facilitate and democratize multichannel communication. Without the need to subscribe to third-party services for simple functions, CorePing allows you to centralize your broadcasts directly and for free. The tool was designed to be accessible, running perfectly in both Windows and Linux environments.
 
 ## Features (v1.0.4)
 The first release already delivers the essentials for the messaging workflow, focusing on usability, control, and security:
@@ -64,6 +64,6 @@ Our next development steps include:
 
 * **Community Management:** Creation and segmentation of broadcasting groups.
 
-* **Active Control:** Ability to delete already sent messages directly from the OmniSender panel.
+* **Active Control:** Ability to delete already sent messages directly from the CorePing panel.
 
 * **Optimized Setup:** Refactoring and error handling in the installation process to make it fail-proof.
