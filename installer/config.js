@@ -1,8 +1,8 @@
 module.exports = {
     getPackageJson: () => ({
-        "name": "omnisender",
-        "version": "1.0.5",
-        "description": "OmniSender - Whatsapp e Discord.",
+        "name": "CorePing",
+        "version": "1.0.4",
+        "description": "CorePing - Whatsapp e Discord.",
         "main": "src/app.js",
         "scripts": {
             "dev": "nodemon src/app.js",
@@ -42,7 +42,7 @@ module.exports = {
     getEcosystem: () => `
     module.exports = {
       apps : [{
-        name   : "omnisender",
+        name   : "CorePing",
         script : "./src/app.js",
         watch  : false,
         max_memory_restart: '600M',
@@ -58,7 +58,7 @@ module.exports = {
     },
 
     getReadme: (osType) => `
-# OmniSender v1.0.5
+# CorePing v1.0.5
 
 Hub de notificações centralizado para WhatsApp e Discord.
 
@@ -74,4 +74,5 @@ Hub de notificações centralizado para WhatsApp e Discord.
 3. Escolha **[1] Instalar/Atualizar**.
 4. Acesse: \`http://localhost:3000\`
 `
+
 };
