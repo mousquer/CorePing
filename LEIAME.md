@@ -1,4 +1,4 @@
-# OmniSender: Mensageria Unificada e Open-Source
+# OmniSender: Envio de mensagens para Discord e WhatsApp em um local
 O OmniSender é uma aplicação self-hosted desenvolvida em Node.js, projetada para disparar mensagens simultaneamente para o Discord e o WhatsApp.
 
 O objetivo do projeto é facilitar e democratizar a comunicação multicanal. Sem a necessidade de assinar serviços de terceiros para funções simples, o OmniSender permite que você centralize seus envios de forma gratuita e direta. 
