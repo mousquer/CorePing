@@ -1,6 +1,6 @@
-const login = `<!DOCTYPE html><html><head><title>Login - OmniSender</title><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><style>body{background:#f0f2f5;color:#333;display:flex;align-items:center;justify-content:center;height:100vh}.card{background:#fff;border:none;box-shadow:0 10px 25px rgba(0,0,0,0.1);width:100%;max-width:400px}.form-control{background:#fff;border:1px solid #ced4da;color:#333}.form-control:focus{background:#fff;color:#333;border-color:#0d6efd;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)}a{color:#0d6efd;text-decoration:none}a:hover{color:#0a58ca;text-decoration:underline}</style></head><body>
+const login = `<!DOCTYPE html><html><head><title>Login - CorePing</title><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"><style>body{background:#f0f2f5;color:#333;display:flex;align-items:center;justify-content:center;height:100vh}.card{background:#fff;border:none;box-shadow:0 10px 25px rgba(0,0,0,0.1);width:100%;max-width:400px}.form-control{background:#fff;border:1px solid #ced4da;color:#333}.form-control:focus{background:#fff;color:#333;border-color:#0d6efd;box-shadow:0 0 0 .25rem rgba(13,110,253,.25)}a{color:#0d6efd;text-decoration:none}a:hover{color:#0a58ca;text-decoration:underline}</style></head><body>
 <div class="card p-4">
-    <div class="text-center mb-4"><h3 class="fw-bold text-primary">OmniSender</h3><p class="text-muted small">Faça login para continuar</p></div>
+    <div class="text-center mb-4"><h3 class="fw-bold text-primary">CorePing</h3><p class="text-muted small">Faça login para continuar</p></div>
     <% if(locals.error){ %><div class="alert alert-danger py-2"><small><%= error %></small></div><% } %>
     
     <form id="formLogin" action="/login" method="POST">
@@ -131,7 +131,7 @@ const dashboard = `
 <!DOCTYPE html>
 <html>
 <head>
-    <title>OmniSender v1.0.5</title>
+    <title>CorePing v1.0.5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="/socket.io/socket.io.js"></script>
@@ -188,7 +188,7 @@ const dashboard = `
     <nav class="navbar navbar-dark bg-dark px-4 mb-4 shadow-sm">
         <a class="navbar-brand d-flex align-items-center">
             <% if(config.logoUrl) { %> <img src="<%= config.logoUrl %>" class="rounded"> <% } %>
-            <strong><%= config.serverName || 'OmniSender' %></strong>
+            <strong><%= config.serverName || 'CorePing' %></strong>
         </a>
         <div class="d-flex gap-2">
             <% if(user.role === 'admin') { %>
@@ -576,5 +576,6 @@ const dashboard = `
 </body>
 </html>
 `;
+
 
 module.exports = { getDashboardEjs: () => dashboard, getLoginEjs: () => login, getSetupEjs: () => setup, getSetupSmtpEjs: () => setupSmtp };
