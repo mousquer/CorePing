@@ -1,7 +1,7 @@
-# OmniSender: Envio de mensagens para Discord e WhatsApp em um local
-O OmniSender é uma aplicação self-hosted desenvolvida em Node.js, projetada para disparar mensagens simultaneamente para o Discord e o WhatsApp.
+# CorePing: Envio de mensagens para Discord e WhatsApp em um local
+O CorePing é uma aplicação self-hosted desenvolvida em Node.js, projetada para disparar mensagens simultaneamente para o Discord e o WhatsApp.
 
-O objetivo do projeto é facilitar e democratizar a comunicação multicanal. Sem a necessidade de assinar serviços de terceiros para funções simples, o OmniSender permite que você centralize seus envios de forma gratuita e direta. 
+O objetivo do projeto é facilitar e democratizar a comunicação multicanal. Sem a necessidade de assinar serviços de terceiros para funções simples, o CorePing permite que você centralize seus envios de forma gratuita e direta. 
 
 A ferramenta foi desenhada para ser acessível, rodando perfeitamente tanto em ambientes Windows quanto Linux.
 
@@ -66,6 +66,6 @@ Próximos passos de desenvolvimento incluem:
 
 * **Gestão de Comunidades:** Criação e segmentação de grupos de envio.
 
-* **Controle Ativo:** Capacidade de excluir/editar mensagens já enviadas diretamente pelo painel do OmniSender.
+* **Controle Ativo:** Capacidade de excluir/editar mensagens já enviadas diretamente pelo painel do CorePing.
 
 * **Setup Otimizado**: Refatoração e tratamento de erros no processo de instalação para torná-lo à prova de falhas.
